@@ -1,0 +1,24 @@
+# Секреты и переменные окружения — НИКОГДА не коммитим
+.env
+.env.*
+!.env.example
+*.env
+secrets/
+.secrets/
+*.key
+*.pem
+*.p12
+credentials.json
+service-account*.json
+
+# Локальные настройки Claude Code (могут содержать env с токенами)
+.claude/settings.local.json
+.claude/*.local.json
+
+# Служебное
+.DS_Store
+node_modules/
+__pycache__/
+*.log
+.venv/
+venv/
